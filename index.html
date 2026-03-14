@@ -1,170 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mos Eggsley Woodcraft</title>
+  <meta name="description" content="Mos Eggsley Woodcraft creates handcrafted planter boxes, furniture, garden builds, and custom woodworking projects." />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-<title>Mos Eggsley Woodcraft</title>
+    html {
+      scroll-behavior: smooth;
+    }
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f6f3ee;
+      color: #2f2419;
+      line-height: 1.6;
+    }
 
-<style>
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-body{
-font-family: Arial;
-margin:0;
-background:#f4f4f4;
-}
+    img {
+      max-width: 100%;
+      display: block;
+    }
 
-header{
-background:#2f2419;
-color:white;
-text-align:center;
-padding:70px 20px;
-}
+    .topbar {
+      background: #1f1711;
+      color: #f5ede2;
+      padding: 12px 20px;
+      text-align: center;
+      font-size: 14px;
+      letter-spacing: 0.4px;
+    }
 
-header h1{
-font-size:42px;
-margin:0;
-}
+    .hero {
+      position: relative;
+      min-height: 88vh;
+      background:
+        linear-gradient(rgba(20, 14, 10, 0.55), rgba(20, 14, 10, 0.55)),
+        url('IMG_1775.JPEG') center center / cover no-repeat;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
 
-header p{
-font-size:20px;
-margin-top:10px;
-}
+    .hero-content {
+      max-width: 900px;
+    }
 
-.section{
-max-width:1100px;
-margin:auto;
-padding:60px 20px;
-}
+    .logo {
+      width: 220px;
+      max-width: 70vw;
+      margin: 0 auto 24px;
+      filter: drop-shadow(0 4px 14px rgba(0,0,0,0.35));
+    }
 
-.services{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
-}
-
-.card{
-background:white;
-padding:20px;
-border-radius:8px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
-}
-
-.gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:15px;
-}
-
-.gallery img{
-width:100%;
-border-radius:8px;
-}
-
-.contact{
-background:#eaeaea;
-text-align:center;
-padding:50px;
-}
-
-footer{
-background:#2f2419;
-color:white;
-text-align:center;
-padding:20px;
-}
-
-</style>
-
-</head>
-
-<body>
-
-<header>
-
-<h1>Mos Eggsley Woodcraft</h1>
-
-<p>Custom Handcrafted Woodworking</p>
-
-<p>Built by Hand • Built to Last</p>
-
-</header>
-
-<section class="section">
-
-<h2>Services</h2>
-
-<div class="services">
-
-<div class="card">
-<h3>Custom Planter Boxes</h3>
-<p>Handcrafted cedar planter boxes built to your exact size.</p>
-</div>
-
-<div class="card">
-<h3>Furniture</h3>
-<p>Tables, benches, shelving, and custom furniture pieces.</p>
-</div>
-
-<div class="card">
-<h3>Garden Builds</h3>
-<p>Raised beds, trellis planters, and garden furniture.</p>
-</div>
-
-<div class="card">
-<h3>Custom Projects</h3>
-<p>If you can imagine it, we can build it.</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>Recent Projects</h2>
-
-<div class="gallery">
-
-<img src="IMG_1775.JPEG">
-<img src="IMG_1805.JPEG">
-<img src="IMG_1913.JPEG">
-<img src="IMG_1927.JPEG">
-<img src="IMG_1948.JPEG">
-<img src="IMG_1887.JPEG">
-<img src="IMG_1891.JPEG">
-<img src="IMG_1767.JPEG">
-
-</div>
-
-</section>
-
-<section class="contact">
-
-<h2>Request a Quote</h2>
-
-<p>
-
-Graig Stephens<br>
-406-369-8794<br>
-graigs43@gmail.com
-
-</p>
-
-<p>
-
-Payments accepted:<br>
-Cash • Check • Venmo
-
-</p>
-
-</section>
-
-<footer>
-
-Mos Eggsley Woodcraft © 2026
-
-</footer>
-
-</body>
-</html>
+    .hero h1 {
+      margin: 0;
