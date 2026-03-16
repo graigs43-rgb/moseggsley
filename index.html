@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mos Eggsley Woodcraft</title>
-<meta name="description" content="Custom woodworking in Corvallis Montana serving the Bitterroot Valley. Planter boxes, furniture, and handcrafted wood projects by Mos Eggsley Woodcraft.">
 
-<meta property="og:title" content="Mos Eggsley Woodcraft – Custom Woodworking in Corvallis Montana">
-<meta property="og:description" content="Custom handcrafted woodworking in Corvallis, Montana serving the Bitterroot Valley. Planter boxes, furniture, and custom builds.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://moseggsley.com">
+  <title>Mos Eggsley Woodcraft | Custom Woodworking in Corvallis, Montana</title>
+  <meta name="description" content="Mos Eggsley Woodcraft provides custom woodworking in Corvallis, Montana and throughout the Bitterroot Valley. Handcrafted planter boxes, furniture, garden builds, and specialty wood projects." />
+  <meta name="keywords" content="custom woodworking Corvallis Montana, Bitterroot Valley woodworking, planter boxes Corvallis, handmade furniture Montana, custom wood projects" />
+  <meta name="author" content="Mos Eggsley Woodcraft" />
 
-  
+  <meta property="og:title" content="Mos Eggsley Woodcraft | Custom Woodworking in Corvallis, Montana" />
+  <meta property="og:description" content="Handcrafted planter boxes, furniture, garden builds, and custom woodworking in Corvallis, Montana and the Bitterroot Valley." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://moseggsley.com" />
+  <meta property="og:image" content="https://moseggsley.com/logo.png" />
+
   <link rel="icon" type="image/png" href="logo.png">
 
   <script type="application/ld+json">
@@ -22,6 +25,7 @@
     "image": "https://moseggsley.com/logo.png",
     "url": "https://moseggsley.com",
     "telephone": "+1-406-369-8794",
+    "email": "mailto:graigs43@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "693 Hope Dr",
@@ -30,12 +34,17 @@
       "postalCode": "59828",
       "addressCountry": "US"
     },
-    "areaServed": {
-      "@type": "Place",
-      "name": "Bitterroot Valley"
-    },
+    "areaServed": [
+      "Corvallis, Montana",
+      "Hamilton, Montana",
+      "Victor, Montana",
+      "Stevensville, Montana",
+      "Darby, Montana",
+      "Bitterroot Valley"
+    ],
+    "description": "Custom woodworking, handcrafted planter boxes, furniture, garden builds, and specialty wood projects.",
     "sameAs": [
-      "PUT-YOUR-REAL-GOOGLE-BUSINESS-LINK-HERE"
+      "https://share.google/OJ3h59Tu7cx4xCMR6"
     ]
   }
   </script>
@@ -69,6 +78,37 @@
       text-align: center;
       font-size: 14px;
       letter-spacing: 0.4px;
+    }
+
+    .nav {
+      background: rgba(31, 23, 17, 0.96);
+      color: #f5ede2;
+      padding: 14px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .nav-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-brand {
+      font-weight: 700;
+      letter-spacing: 0.4px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: 15px;
     }
 
     .hero {
@@ -114,7 +154,7 @@
     .hero .tagline {
       margin: 0 auto 28px;
       font-size: 20px;
-      max-width: 700px;
+      max-width: 760px;
       color: #f2e7da;
     }
 
@@ -130,6 +170,7 @@
       padding: 14px 24px;
       border-radius: 999px;
       font-weight: 700;
+      transition: 0.2s ease;
     }
 
     .btn-primary {
@@ -137,10 +178,18 @@
       color: white;
     }
 
+    .btn-primary:hover {
+      background: #b5793d;
+    }
+
     .btn-secondary {
       background: rgba(255,255,255,0.14);
       border: 1px solid rgba(255,255,255,0.35);
       color: white;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.22);
     }
 
     .section {
@@ -173,14 +222,16 @@
     .about-card,
     .services .card,
     .contact-card,
-    .review-card {
+    .review-card,
+    .service-area-card {
       background: white;
       border-radius: 18px;
       box-shadow: 0 10px 28px rgba(0,0,0,0.08);
     }
 
     .about-card,
-    .review-card {
+    .review-card,
+    .service-area-card {
       padding: 32px;
     }
 
@@ -230,6 +281,22 @@
       box-shadow: 0 8px 24px rgba(0,0,0,0.08);
     }
 
+    .review-card {
+      max-width: 850px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .service-area-card {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .service-area-card ul {
+      margin: 16px 0 16px 20px;
+      padding: 0;
+    }
+
     .contact-wrap {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -261,12 +328,6 @@
       color: #2f2419;
     }
 
-    .review-card {
-      max-width: 850px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
     .footer {
       background: #1f1711;
       color: #f2e7da;
@@ -281,6 +342,7 @@
       .about-grid, .contact-wrap { grid-template-columns: 1fr; }
       .hero h1 { font-size: 42px; }
       .hero .subhead { font-size: 22px; }
+      .nav-inner { flex-direction: column; align-items: flex-start; }
     }
 
     @media (max-width: 640px) {
@@ -293,6 +355,7 @@
       .services, .gallery { grid-template-columns: 1fr; }
       .gallery img { height: 260px; }
       .logo { width: 180px; }
+      .nav-links { gap: 12px; font-size: 14px; }
     }
   </style>
 </head>
@@ -301,6 +364,18 @@
   <div class="topbar">
     Custom handcrafted woodworking for home, garden, and one-of-a-kind projects
   </div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-brand">Mos Eggsley Woodcraft</div>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#service-area">Service Area</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
 
   <header class="hero">
     <div class="hero-content">
@@ -336,7 +411,7 @@
         </p>
       </div>
       <div class="about-photo">
-        <img src="IMG_1805.JPEG" alt="Custom woodworking project by Mos Eggsley Woodcraft">
+        <img src="IMG_1805.JPEG" alt="Custom wood privacy planter built by Mos Eggsley Woodcraft in Corvallis Montana">
       </div>
     </div>
   </section>
@@ -377,19 +452,19 @@
     </p>
 
     <div class="gallery">
-      <img src="IMG_1775.JPEG" alt="Woodworking project">
-      <img src="IMG_1779.JPEG" alt="Woodworking project">
-      <img src="IMG_1805.JPEG" alt="Woodworking project">
-      <img src="IMG_1806.JPEG" alt="Woodworking project">
-      <img src="IMG_1840.JPEG" alt="Woodworking project">
-      <img src="IMG_1866.JPEG" alt="Woodworking project">
-      <img src="IMG_1927.JPEG" alt="Woodworking project">
-      <img src="IMG_1929.JPEG" alt="Woodworking project">
-      <img src="IMG_2003.JPEG" alt="Woodworking project">
+      <img src="IMG_1775.JPEG" alt="Custom tiered cedar planter display built in Montana">
+      <img src="IMG_1779.JPEG" alt="Handmade wood slat privacy planter in Corvallis Montana">
+      <img src="IMG_1805.JPEG" alt="Large cedar privacy planter with slatted screen">
+      <img src="IMG_1806.JPEG" alt="Tiered planter stand handcrafted by Mos Eggsley Woodcraft">
+      <img src="IMG_1840.JPEG" alt="Hexagon cedar planter boxes for outdoor landscaping">
+      <img src="IMG_1866.JPEG" alt="Raised pet bowl stand handmade from wood">
+      <img src="IMG_1927.JPEG" alt="Decorative wooden wishing well planter">
+      <img src="IMG_1929.JPEG" alt="Rustic wood planter box with cross-brace detail">
+      <img src="IMG_2003.JPEG" alt="Outdoor cedar potting bench for garden use">
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="reviews">
     <h2>Customer Reviews</h2>
     <p class="section-intro">
       Feedback from customers who trusted Mos Eggsley Woodcraft with their projects.
@@ -402,42 +477,37 @@
       </p>
       <p style="margin-top:18px;"><strong>— Campione's Taste of Chicago</strong></p>
       <p style="margin-top:22px;">
-        <a href="PUT-YOUR-GOOGLE-REVIEW-LINK-HERE" class="btn btn-primary">Read More Reviews on Google</a>
+        <a href="https://share.google/OJ3h59Tu7cx4xCMR6" class="btn btn-primary">Read More Reviews on Google</a>
       </p>
     </div>
   </section>
 
-<section class="section">
+  <section class="section" id="service-area">
+    <h2>Serving the Bitterroot Valley</h2>
+    <p class="section-intro">
+      Mos Eggsley Woodcraft provides custom woodworking services throughout the Bitterroot Valley and surrounding communities.
+    </p>
 
-<h2>Serving the Bitterroot Valley</h2>
+    <div class="service-area-card">
+      <p>
+        Projects are built in Corvallis, Montana and available for customers throughout the region.
+      </p>
 
-<p class="section-intro">
-Mos Eggsley Woodcraft provides custom woodworking services throughout the Bitterroot Valley and surrounding areas.
-Projects are built in Corvallis, Montana and available for customers across the region.
-</p>
+      <p><strong>Common service areas include:</strong></p>
+      <ul>
+        <li>Corvallis, Montana</li>
+        <li>Hamilton, Montana</li>
+        <li>Victor, Montana</li>
+        <li>Stevensville, Montana</li>
+        <li>Darby, Montana</li>
+      </ul>
 
-<div class="about-card">
+      <p>
+        Custom planter boxes, handcrafted furniture, outdoor wood projects, and specialty woodworking builds are available throughout the Bitterroot Valley.
+      </p>
+    </div>
+  </section>
 
-<p>
-Common service areas include:
-</p>
-
-<ul>
-<li>Corvallis, Montana</li>
-<li>Hamilton, Montana</li>
-<li>Victor, Montana</li>
-<li>Stevensville, Montana</li>
-<li>Darby, Montana</li>
-</ul>
-
-<p>
-Custom planter boxes, handcrafted furniture, and specialty woodworking projects are available throughout the Bitterroot Valley.
-</p>
-
-</div>
-
-</section>
-  
   <section class="section" id="contact">
     <h2>Request a Quote</h2>
     <p class="section-intro">
@@ -465,7 +535,7 @@ Custom planter boxes, handcrafted furniture, and specialty woodworking projects 
   </section>
 
   <footer class="footer">
-    Mos Eggsley Woodcraft © 2026
+    Mos Eggsley Woodcraft © 2026 • Custom woodworking in Corvallis, Montana serving the Bitterroot Valley
   </footer>
 
 </body>
